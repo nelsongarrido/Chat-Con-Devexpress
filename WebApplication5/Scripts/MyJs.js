@@ -88,7 +88,7 @@ function sendNewMessage() {
     }, 250);
 
 }
-
+ 
 function hiddenField_EndCallback(s, e) {
     var userInput = $('.text-box');
     var responseMessage = hiddenField.Get("hidden_value");
